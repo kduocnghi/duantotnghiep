@@ -1,20 +1,14 @@
 const Sequelize = require("sequelize");
 
-module.exports = sequilize.define( "users", {
+module.exports = sequilize.define( "tweets", {
     id: {
         type: Sequelize.INTEGER(11),
         allowNull: false,
         autoIncrement: true,
         primaryKey: true
     },
-    username: {
-        type: Sequelize.STRING(35),
-        allowNull: false
-    },
-    passwd: {
-        type: Sequelize.STRING(20),
-        allowNull: false
-    },
+    content: Sequelize.STRING(250),
+    userId: Sequelize.STRING(11),
     createdAt: Sequelize.DATE,
     updatedAt: Sequelize.DATE
 });

@@ -1,0 +1,26 @@
+.icon-like {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    float: right;
+    background-image: url("/images/heart.png");
+    background-size: cover;
+}
+
+.icon-comment {
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-right: 8px;
+    background-image: url("/images/chat.png");
+    background-size: cover;
+}
+
+.icon-detail {
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-right: 8px;
+    background-image: url("/images/detail.png");
+    background-size: cover;
+}
