@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-module.exports = sequilize.define( "tweets", {
+module.exports = sequilize.define( "images", {
     image_id: {
         type: Sequelize.INTEGER(11),
         allowNull: false,
@@ -8,9 +8,9 @@ module.exports = sequilize.define( "tweets", {
         primaryKey: true
     },
     location: Sequelize.STRING(250),
-    album_id: Sequelize.STRING(11),
-    user_id: Sequelize.STRING(11),
-    hidden: Sequelize.STRING(11),
+    albumId: Sequelize.INTEGER(11),
+    userId: Sequelize.INTEGER(11),
+    hidden: Sequelize.TINYINT(4),
     createdAt: Sequelize.DATE,
     updatedAt: Sequelize.DATE,
     deletedAt: Sequelize.DATE
