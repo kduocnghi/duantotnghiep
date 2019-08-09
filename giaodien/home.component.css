@@ -1,0 +1,50 @@
+.avatar8-8 {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+.left {
+  width: 600px;
+  height: 600px;
+}
+.border-card .inline-comment {
+  display: inline-block;
+}
+.card-new-feed {
+  width: 614px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+
+}
+
+.image-content img {
+  width: 614px;
+  height: 614px;
+}
+
+.account-login {
+  width: 293px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+
+}
+
+.stories {
+  width: 293px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+
+}
+
+.recommend-friend {
+  width: 293px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  right: 500px;
+}

@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-module.exports = sequilize.define( "tags", {
+module.exports = sequelize.define( "tags", {
     id: {
         type: Sequelize.INTEGER(11),
         allowNull: false,

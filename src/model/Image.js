@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-module.exports = sequilize.define( "images", {
+module.exports = sequelize.define( "images", {
     image_id: {
         type: Sequelize.INTEGER(11),
         allowNull: false,

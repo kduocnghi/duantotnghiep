@@ -23,6 +23,7 @@ app.use('/bower_components', express.static(path.dirname(__dirname) + '/bower_co
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist'));
+require("./src/bootstrap")();
 
 console.log(path.dirname(__dirname) + '/bower_components');
 

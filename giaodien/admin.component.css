@@ -1,0 +1,15 @@
+.header .head, .header .btn-logout {
+  display: inline-block;
+  width: auto;
+  zoom: 1;
+  *display: inline; /* ie6 & 7 */
+}
+
+.btn-logout {
+  float: right;
+  margin-top: 12px;
+}
+
+.table-style {
+  margin-top: 12px;
+}

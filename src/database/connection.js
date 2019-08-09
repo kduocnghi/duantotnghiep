@@ -1,6 +1,6 @@
-const Sequilize = require("sequelize");
+const Sequelize = require("sequelize");
 
-const sequelize = new Sequilize("seque", 'root','', { host: '127.0.0.1', dialect: "mysql"});
+const sequelize = new Sequelize("duan", 'root','', { host: '127.0.0.1', dialect: "mysql"});
 
 module.exports = sequelize;
-global.sequilize = sequelize;
+global.sequelize = sequelize;

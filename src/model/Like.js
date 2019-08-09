@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-module.exports = sequilize.define( "likes", {
+module.exports = sequelize.define( "likes", {
     id: {
         type: Sequelize.INTEGER(11),
         allowNull: false,
